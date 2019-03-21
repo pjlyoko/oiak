@@ -8,7 +8,7 @@ Sklonować repozytorium SVN lokalnie. Utwórz plik, dodaj go do centralnego re
 - W każdym bajcie odwróć kolejność bitów.
 - Zmienione bajty (wszystkie!) wypisać na standardowy strumień wyjściowy.
 
-Użyć [danych na stronie ZAK](http://zak.iiar.pwr.edu.pl/materials/architektura/laboratorium AK2/Dane/revBits.tar.gz) dla uzyskania danych wejściowych i oczekiwanych wyjść.
+Użyć [danych na stronie ZAK](http://zak.iiar.pwr.edu.pl/materials/architektura/laboratorium%20AK2/Dane/revBits.tar.gz) dla uzyskania danych wejściowych i oczekiwanych wyjść.
 
 ```bash
 as program.s -g -o program.o
