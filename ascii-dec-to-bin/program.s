@@ -1,3 +1,6 @@
+# WARNING!
+# The code **is not completed**!
+
 .data
 SYSEXIT      = 60
 SYSREAD      = 0
