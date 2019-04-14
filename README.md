@@ -16,4 +16,5 @@ Each catalogue is another task I had to prepare. Every `.s` file contains Asse
 ## Previous codes
 - [arithmetic-exceptions](arithmetic-exceptions) — create assembly functions to control ALU exceptions register and a C program to test if setting the register gives a result.
 - [cpuid-cache](cpuid-cache) — check Intel processor's cache levels, its type, size and so on.
+- [taylor-series-approx](taylor-series-approx) — create an assembly function approximating $log(1+x)$ with Taylor series.
 - [using-sse-mmx](using-sse-mmx) — create a C and an assembly function (using SSE/MMX) that will do the same operation on two long vectors (adding, multiplying by const.); compare resulting vectors. Compare time using `rdtsc`.
