@@ -3,6 +3,8 @@ This repository is used to publish the code I made for _Organisation and Comp
 
 Each catalogue is another task I had to prepare. Every `.s` file contains Assembly code in AT&T notation.
 
+**DISCLAIMER**. These codes **might not work** nor shall be treated as a model to follow, especially those mentioned in _Previous codes_ section.
+
 ## Apr 4, 2019
 - [ascii-dec-to-bin](ascii-dec-to-bin) — (**NOT COMPLETED**) read unknown amount of unknown length records of ASCII chars representing decimal numbers, splitted by `\n`, and convert them to 255&times;8 bits (**NOT ASCII CHARS**).
 
