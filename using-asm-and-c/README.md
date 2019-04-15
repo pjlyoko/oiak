@@ -31,4 +31,5 @@ Pomiar czasu trwania:
 - operacji na pamięci,
 - funkcji `write`,
 - funkcji `printf`.
+
 Wykonać serię pomiarów („tyle pomiarów, ile można zobaczyć jednym rzutem oka”), sprawdzić, jak te wyniki się układają.
