@@ -5,6 +5,14 @@ Each catalogue is another task I had to prepare. Every `.s` file contains Asse
 
 **DISCLAIMER**. These codes **might not work** nor shall be treated as a model to follow, especially those mentioned in _Previous codes_ section.
 
+## Apr 15, 2019
+Using asm and C. [Read more… [PL]](using-asm-and-c)
+- [asm-scanf-printf](using-asm-and-c/scanf-printf.s) — create an asm function that uses `scanf` and `printf` functions from C Standard Library, reading from standard input two values of types `int` and `char *`, and writing them back to stdout.
+- [asm-rdtsc](using-asm-and-c/rdtsc.s), [c-rdtsc](using-asm-and-c/rdtsc.c) — create an asm function returning value returned by `rdtsc`; write a C program that will use the function and print out to standard output its output.
+- (**NOT DONE**) Create C program that will use variables defined in an asm code (`short`, `char []`) and an asm program that will use C variables (`int`, `char *`).
+- [asm-rdtsc-measurement](using-asm-and-c/measurement.s), [c-rdtsc-measurement](using-asm-and-c/measurement.c) — measure CPU ticks using [`rdtsc`](using-asm-and-c/rdtsc.s) for: (1) a registry operation, (2) a memory operation, (3) `write` function, (4) `printf` function.
+
+
 ## Apr 4, 2019
 - [ascii-dec-to-bin](ascii-dec-to-bin) — (**NOT COMPLETED**) read unknown amount of unknown length records of ASCII chars representing decimal numbers, splitted by `\n`, and convert them to 255&times;8 bits (**NOT ASCII CHARS**).
 
