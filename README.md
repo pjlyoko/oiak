@@ -5,6 +5,13 @@ Each catalogue is another task I had to prepare. Every `.s` file contains Asse
 
 **DISCLAIMER**. These codes **might not work** nor shall be treated as a model to follow, especially those mentioned in _Previous codes_ section.
 
+## Apr 25, 2019
+Using x87 FPU. [Read more… [PL]](using-x87)
+- x87-exception [[C code]](using-x87/x87-exception.c), [[asm code]](using-x87/functions.s) — raise 2 exceptions, at least one different than _divide-by-zero_ / _inv_.
+- (**NOT DONE**) x87-precision [[C code]](using-x87/x87-precision.c), [[asm code]](using-x87/functions.s) — change calculations precision and show it's working on an example.
+- x87-round-mode [[C code]](using-x87/x87-round-mode.c), [[asm code]](using-x87/functions.s) — change rounding mode and present it's working (explain what were the bits used to round the result (**THIS PART IS NOT DONE**)).
+- (**NOT DONE**) [x87-instruction-level-parallelism](using-x87/x87-ilp.s) — write two sets of instructions such that one has many dependencies on previous results and the other has them a few. Check times.
+
 ## Apr 15, 2019
 Using asm and C. [Read more… [PL]](using-asm-and-c)
 - [asm-scanf-printf](using-asm-and-c/scanf-printf.s) — create an asm function that uses `scanf` and `printf` functions from C Standard Library, reading from standard input two values of types `int` and `char *`, and writing them back to stdout.
