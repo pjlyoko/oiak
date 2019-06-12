@@ -6,6 +6,11 @@ Each catalogue is another task I had to prepare. Every `.s` file contains Asse
 **DISCLAIMER**. These codes **might not work** nor shall be treated as a model to follow, especially those mentioned in _Previous codes_ section.
 
 
+## May 16, 2019
+Using SSE. [Read more… [PL]](using-sse-to-filter-image)
+- (**NOT DONE**) [using-sse-to-filter-image](using-sse-to-filter-image/showimage.c) — in a pre-prepared program create a function `Filter(…)` to apply a bas-relief filter to the image (method described in [readme](using-sse-to-filter-image)).
+
+
 ## Apr 25, 2019
 Using x87 FPU. [Read more… [PL]](using-x87)
 - x87-exception [[C code]](using-x87/x87-exception.c), [[asm code]](using-x87/functions.s) — raise 2 exceptions, at least one different than _divide-by-zero_ / _inv_.
