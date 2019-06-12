@@ -10,7 +10,7 @@ STDOUT       = 1
 EXIT_SUCCESS = 0
 
 BUFLEN       = 1024
-BUFLEN_RES   = 256
+BUFLEN_RES   = 255
 
 .bss
 .comm buf_in, 1
@@ -80,9 +80,10 @@ petla_przetwarzania:
 	
 	# TODO: Jeśli nastąpiło przepełnienie, trzeba to obsłużyć.
 	jnc dalej
-	nop
-	# Obsługa przepełnienia
-	# Rejestr %rax jest pełny i należy go zapisać do wyjścia.
+	przepelnienie:
+		# Obsługa przepełnienia
+		# Rejestr %rax jest pełny i należy go zapisać do wyjścia.
+		nop
 	
 	dalej:
 	movb buffer(, %r13, 1), %r14b
